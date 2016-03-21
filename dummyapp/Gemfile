@@ -45,6 +45,6 @@ group :development do
   gem 'spring'
 end
 
-# gem 'light_bootstrap_dashboard', path: "/Users/Tim/Documents/Stuffs/Projects/Clients/CommandRun/UiReady/Web/Rails Themes/light_bootstrap_dashboard"
+gem 'light_bootstrap_dashboard', path: "/Users/Tim/Documents/Stuffs/Projects/Clients/CommandRun/UiReady/Web/Rails Themes/light_bootstrap_dashboard"
 
-gem 'light_bootstrap_dashboard', path: "/home/nitrous/code/light_bootstrap_dashboard"
+# gem 'light_bootstrap_dashboard', path: "/home/nitrous/code/light_bootstrap_dashboard"

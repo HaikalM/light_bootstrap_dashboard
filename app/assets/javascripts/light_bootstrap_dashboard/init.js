@@ -28,4 +28,9 @@ $(document).on("page:change", function() {
       timer: 4000
     });
   }
+  if ($.inArray('maps-page',App.features()) >= 0) {
+    $().ready(function(){
+        demo.initGoogleMaps();
+    });
+  }
 });

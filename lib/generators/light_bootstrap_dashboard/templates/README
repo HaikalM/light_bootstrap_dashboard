@@ -1,21 +1,22 @@
 ===============================================================================
 
- __  __       _            _       _ _  ___ _
-|  \/  | __ _| |_ ___ _ __(_) __ _| | |/ (_) |_
-| |\/| |/ _` | __/ _ \ '__| |/ _` | | ' /| | __|
-| |  | | (_| | ||  __/ |  | | (_| | | . \| | |_
-|_|  |_|\__,_|\__\___|_|  |_|\__,_|_|_|\_\_|\__|
+ _     _       _     _   ____              _       _                   ____            _     _                         _
+| |   (_) __ _| |__ | |_| __ )  ___   ___ | |_ ___| |_ _ __ __ _ _ __ |  _ \  __ _ ___| |__ | |__   ___   __ _ _ __ __| |
+| |   | |/ _` | '_ \| __|  _ \ / _ \ / _ \| __/ __| __| '__/ _` | '_ \| | | |/ _` / __| '_ \| '_ \ / _ \ / _` | '__/ _` |
+| |___| | (_| | | | | |_| |_) | (_) | (_) | |_\__ \ |_| | | (_| | |_) | |_| | (_| \__ \ | | | |_) | (_) | (_| | | | (_| |
+|_____|_|\__, |_| |_|\__|____/ \___/ \___/ \__|___/\__|_|  \__,_| .__/|____/ \__,_|___/_| |_|_.__/ \___/ \__,_|_|  \__,_|
+         |___/                                                  |_|
 
-Hooray, you just installed Material Kit in your rails app!!
+Hooray, you just installed Light Bootstrap Dashboard in your rails app!!
 
 If you curious what the install generator done so far, actually, it created the
 following layout, css and js files in your app:
 
   * app/views/layouts/_base.html.erb
-  * app/assets/stylesheets/material_kit.css
-  * app/assets/javascripts/material_kit.js
+  * app/assets/stylesheets/light_bootstrap_dashboard.css
+  * app/assets/javascripts/light_bootstrap_dashboard.js
 
-Also, it added require directive to require material_kit.css and material_kit.js from
+Also, it added require directive to require light_bootstrap_dashboard.css and light_bootstrap_dashboard.js from
 following manifest files:
 
   * app/assets/stylesheets/application.css
@@ -23,10 +24,10 @@ following manifest files:
 
 Some setup you must do manually if you haven't yet
 
-  * Ensure app/assets/stylesheets/material_kit.css is loaded in application.css
-    with `require_tree .` or `require material_kit`.
+  * Ensure app/assets/stylesheets/light_bootstrap_dashboard.css is loaded in application.css
+    with `require_tree .` or `require light_bootstrap_dashboard`.
 
-  * Ensure `require material_kit` has been added to
+  * Ensure `require light_bootstrap_dashboard` has been added to
     app/assets/javascripts/application.js.
 
   * Ensure you have defined root_url to *something* in your config/routes.rb.

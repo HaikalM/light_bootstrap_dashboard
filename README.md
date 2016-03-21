@@ -155,52 +155,44 @@ It is the manifest file using sprockets require directives to require all Light 
 
 Light Bootstrap Dashboard come with the following page generators to help you create the various pages. It's automatically handle all setup such as routes, controllers and views. By the way, all view layout are based on `_base.html.erb` layout, if you want to use different layout, you can specify it in your controller.
 
-### INDEX PAGE GENERATOR
+### DASHBOARD PAGE GENERATOR
 
-Generate index page view at app/views/CONTROLLER/ACTION
-
-```
-rails g light_bootstrap_dashboard:index_page CONTROLLER ACTION
-```
-
-### LANDING PAGE GENERATOR
-
-Generate landing page view at app/views/CONTROLLER/ACTION
+Generate dashboard page view at app/views/CONTROLLER/ACTION
 
 ```
-rails g light_bootstrap_dashboard:landing_page CONTROLLER ACTION
+rails g light_bootstrap_dashboard:dashboard_page CONTROLLER ACTION
 ```
 
-### PROFILE PAGE GENERATOR
+### ICONS PAGE GENERATOR
 
-Generate profile page view at app/views/CONTROLLER/ACTION
-
-```
-rails g light_bootstrap_dashboard:profile_page CONTROLLER ACTION
-```
-
-### SIGNUP PAGE GENERATOR
-
-Generate signup page view at app/views/CONTROLLER/ACTION
+Generate icons page view at app/views/CONTROLLER/ACTION
 
 ```
-rails g light_bootstrap_dashboard:signup_page CONTROLLER ACTION
+rails g light_bootstrap_dashboard:icons_page CONTROLLER ACTION
 ```
 
-### TUTORIAL PAGE GENERATOR
+### MAPS PAGE GENERATOR
 
-Generate tutorial page view at app/views/CONTROLLER/ACTION
-
-```
-rails g light_bootstrap_dashboard:tutorial_page CONTROLLER ACTION
-```
-
-### COMPONENTS PAGE GENERATOR
-
-Generate components page view at app/views/CONTROLLER/ACTION
+Generate maps page view at app/views/CONTROLLER/ACTION
 
 ```
-rails g light_bootstrap_dashboard:components_page CONTROLLER ACTION
+rails g light_bootstrap_dashboard:maps_page CONTROLLER ACTION
+```
+
+### NOTIFICATIONS PAGE GENERATOR
+
+Generate notifications page view at app/views/CONTROLLER/ACTION
+
+```
+rails g light_bootstrap_dashboard:notifications_page CONTROLLER ACTION
+```
+
+### TABLE PAGE GENERATOR
+
+Generate table page view at app/views/CONTROLLER/ACTION
+
+```
+rails g light_bootstrap_dashboard:table_page CONTROLLER ACTION
 ```
 
 ### TEMPLATE PAGE GENERATOR
@@ -211,33 +203,37 @@ Generate template page view at app/views/CONTROLLER/ACTION
 rails g light_bootstrap_dashboard:template_page CONTROLLER ACTION
 ```
 
+### TYPOGRAPHY PAGE GENERATOR
+
+Generate typography page view at app/views/CONTROLLER/ACTION
+
+```
+rails g light_bootstrap_dashboard:typography_page CONTROLLER ACTION
+```
+
+### UPGRADE PAGE GENERATOR
+
+Generate upgrade page view at app/views/CONTROLLER/ACTION
+
+```
+rails g light_bootstrap_dashboard:upgrade_page CONTROLLER ACTION
+```
+
+### USER PAGE GENERATOR
+
+Generate user page view at app/views/CONTROLLER/ACTION
+
+```
+rails g light_bootstrap_dashboard:user_page CONTROLLER ACTION
+```
+
 [Back to top](#table-of-content)
 
 ## Changelog
 
-2016.03.17 - version 1.0.0.1
+2016.03.21 - version 1.3.0.0
 
-* Fixed image path issue on _carousel file
-
-2016.03.16 - version 1.0.0.0
-
-* Added template page generator
-
-2016.03.15 - version 0.0.4.0
-
-* Added components page generator
-
-2016.03.15 - version 0.0.3.0
-
-* Updated README
-
-2016.03.15 - version 0.0.2.0
-
-* Beta Release!
-
-2016.03.14 - version 0.0.1.0
-
-* First Release!
+* First Release for Rails Gem!
 
 [Back to top](#table-of-content)
 
