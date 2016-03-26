@@ -37,7 +37,7 @@ If you want to integrate existing rails app, please make sure you have remove al
 2. Install light_bootstrap_dashboard gem
 
   ```
-  gem 'light_bootstrap_dashboard', '>= 1.0.0.0'
+  gem 'light_bootstrap_dashboard', '~> 1.3'
   ```
 
   Run the following command to install the gem:
